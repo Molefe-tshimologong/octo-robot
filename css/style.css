@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Righteous&display=swap');
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+	background: #0b2343;
+  }
+  body {
+	font-family: sans-serif;
+	margin: 0 auto;
+  }
+  
+  .navbar {
+	background-color: #0b2343;
+	/* padding: 0 10rem 0 0; */
+	margin: -1.4rem 0 0 0;
+	height: 5rem;
+	width: 100%;
+	/* display: block; */
+	font-size: 17px;
+	/* z-index: 100; */
+	position: fixed;
+	padding-left: 1rem;
+	padding-bottom: 0.3rem;
+  }
+  .bar {
+	padding: 1.5rem;
+  }
+  .navbar a.active {
+	  margin-top: 0;
+	background-color: #ffcc05;
+	color: white;
+	
+  }
+  /* .navbar img,
+  .navbar h1,
+  .navbar a,
+  .dropdown {
+	display: inline-block;
+  } */
+  nav img {
+	float: left;
+	background-color: inherit;
+	margin: 0;
+	padding: 0;
+	margin: -3rem;
+	margin-top: -4rem;
+	margin-right: -4rem;
+	position: absolute;
+  }
+  
+  .dropdown {
+	float: right;
+  }
+  h1 {
+	float: left;
+	color: white;
+	padding: 0 0 0 5rem;
+	margin: 1.5rem;
+	font-size: 25px;
+	margin-left: 3rem;
+  }
+  nav a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	padding: 1rem 1rem;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+	background-color: #ffcc05;
+	border-radius: 0.1rem;
+	
+	
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem ;
+	border-top-right-radius: 0.5rem;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	color: white;
+	background-color: #ffcc05;
+	border-radius: 0.5rem;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  /* --------- Home ------------*/
+  .Home {
+	background-color: #0b2343;
+	width: 100%;
+	padding-top: 4rem;
+	color: white;
+	padding: 10rem 0;
+  }
+  .Home div {
+	padding: 1rem 8rem;
+	align-items: center;
+  }
+  .Home h2{
+	  position: absolute;
+  }
+  h2.welcome{
+	  margin-top: -1rem;
+	  margin-left: 25rem;
+	  animation-name: headings;
+	  animation-duration: 4s;
+	  padding-top: 5rem;
+  }
+  h2.to{
+	  margin-top: 10rem;
+	  margin-left: 45rem;
+	  animation-name: headings;
+	  animation-duration: 4s;
+	  padding-top: 5rem;
+	  
+  }
+  h2.factory{
+	  margin-top: 20rem;
+	  margin-left: 35rem;
+	  color: #ffcc05;
+	  font-family: 'Righteous', cursive;
+	  padding-top: 5rem;
+	  font-size: 4rem;
+	  animation-name: headings;
+	  animation-duration: 4s;
+  }
+  @keyframes headings {
+	  0% {margin-left: 10%};
+	  25% {margin-left: 10%};
+	  50% {margin-left: 10%};
+	  100% {margin-left: 10%};
+  }
+  .Home img.abstract{
+	  width: 80%;
+	  margin-left: 10%;
+	
+  }
+
+  /* --------- Brand ------------*/
+  .Brand {
+	background-color: #ff6b40;
+	display: flex;
+	overflow: auto;
+	white-space: nowrap;
+	margin: -1rem 0 0 0;
+  }
+  .Brand div {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 3rem 2rem;
+  }
+  .Brand header {
+	font-weight: bold;
+  }
+  .Brand p {
+	word-break: break-all;
+  }
+div h3{
+	color: white;
+}
+div h3 p{
+	color: white;
+}
+  
+div.inquisitive{
+	  background-color: #B29704;
+	  color: white;
+}
+div.determination{
+	background-color: #FFE139;
+	color: white;
+}
+div.optimistic{
+	background-color: #FFDD20;
+	color: white;
+}
+div.intelligence{
+	background-color: #0b2343;
+	color: white;
+}
+div.brand{
+	background-color: #ff6b40;
+	color: white;
+}
+  /* --------- about program ------------*/
+  .about img {
+	padding-left: 5rem;
+  }
+  
+  div.centerDiv h2 {
+	font-size: 35px;
+	text-align: left;
+	padding: 5rem 0 0 0;
+	margin-left: 6.5rem;
+  }
+  .about p {
+	/* word-wrap: break-word; */
+	padding: 0 7rem;
+  }
+  .grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 1rem;
+  }
+  
+  button {
+	margin: 0 7rem 1rem;
+	padding: 0.7rem;
+	color: white;
+	background-color: #ffcc05;
+	border: none;
+	border-bottom: 4px solid #0b2343;
+	border-radius: 0.2rem;
+  }
+  button.hidden{
+	  cursor: pointer;
+  }
+
+  button.hidden:hover{
+	  background-color: #0b2343;
+  }
+  /* --------- space saver ------------*/
+  .imgDiv img {
+	width: 100%;
+  }
+  blockquote{
+	  margin: 0;
+	  padding: 10rem;
+	  background-color: #ffcc05;
+	  text-align: center;
+  }
+  q{
+	  font-family: 'Dancing Script', cursive;
+	  font-size: 2rem;
+	  color: white;
+  }
+  
+  /* --------- where to find us ------------*/
+  iframe {
+	border: 1px solid black ;
+	padding: 5rem ;
+	box-shadow: 10px 10px 10px 5px black;
+	border-radius: 1rem;
+	background-color: white;
+	
+  }
+  section.container{
+	  border-top: 2px solid rgb(233, 233, 233);
+	  padding-top: 1rem;
+	  background-color: rgb(233, 233, 233);
+	  padding: 1px;
+  }
+  section.container h2{
+	  text-align: center;
+	  font-size: 2rem;
+	  font-family: sans-serif;
+  }
+  
+section.grid-container a {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+	text-shadow: -0.5px 1px 1px rgba(0, 0, 0, 0.5); 
+
+}
+  .cont_info {
+	padding: 10rem 4rem 0 0;
+	font-size: 25px;
+  }
+  .cont_info i,
+  .cont_info a {
+	padding: 1.5rem 0;
+  }
+  .cont_info a {
+	text-decoration: none;
+	color: #0b2343;
+  }
+  .cont_info a:visited {
+	color: #ffcc05;
+  }
+  .find-us {
+	margin-bottom: 7rem;
+  }
+  /* --------- footer ------------*/
+  .footerSection {
+	background-color: #0b2343;
+  }
+  .footerSection i,
+  label {
+	color: white;
+	margin: 2rem 10rem 0 -9rem;
+	float: right;
+  }
+  .footerSection img {
+	margin: 0 5rem;
+	padding: 0;
+  }
+  /*
+  #0B2343 - Oxford Blue
+  #ffcc05 - Sunglow
+  #FF6B40 - Outrageous Orange
+  #00BAE4 - Cyan Process*/
+  
